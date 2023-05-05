@@ -6,11 +6,12 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: black;
+    background-image: linear-gradient(to right, #30503a , black);
     padding: 1px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 20px 20px 20px 20px;
 }
 nav .logo a{
     text-decoration: none;
@@ -43,9 +44,8 @@ nav li a:hover{
     background-color: white;
     color: black;
 }
-.banner{
-    height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('1.jpeg');
+.banner{ 
+    height: 70vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,31 +84,20 @@ nav li a:hover{
     color: white;
     border-radius: 20px 20px 20px 20px;
 }
-.texto .botoes button.n-overlay{
-    color: rgb(255, 255, 255);
-    background: none;
-    border: 2px solid white;
-}
-.texto .botoes button.n-overlay:hover{
-    color: black;
-    background-color: rgb(255, 255, 255);
-}
-.texto .botoes button.overlay{
-    background: white;
-    color: black;
-    animation: vibrar 0.5s ease-in-out infinite both;
-}
-@keyframes vibrar {
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
+
 html, body {
     overflow: hidden;
+   }
+
+   body{
+    background-image: url(1.jpeg);
+    height: 100 vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    
    }

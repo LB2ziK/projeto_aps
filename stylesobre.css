@@ -43,3 +43,18 @@ nav li a:hover{
     background-color: white;
     color: black;
 }
+.banner{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+html, body {
+    overflow: hidden;
+   }
