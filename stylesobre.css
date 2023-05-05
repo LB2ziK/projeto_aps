@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: black;
+    background-image: linear-gradient(to right, #30503a , black);
     padding: 1px 40px;
     display: flex;
     justify-content: space-between;

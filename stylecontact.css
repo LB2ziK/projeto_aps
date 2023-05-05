@@ -6,11 +6,12 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: black;
+    background-image: linear-gradient(to right, #30503a , black);
     padding: 1px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 20px 20px 20px 20px;
 }
 nav .logo a{
     text-decoration: none;
@@ -43,3 +44,82 @@ nav li a:hover{
     background-color: white;
     color: black;
 }
+
+/*
+Section Main
+*/
+
+
+section.main{
+    min-height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main__cta h2{
+    color: blue;
+    font-size: 40px;
+}
+
+.main__cta p{
+    color: gray;
+    font-size: 19px;
+    margin: 10px;
+}
+
+.contatos{
+    display: flex;
+}
+
+.contato-single{
+    background-color: rgba(0, 1, 0, 0.3);
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+
+
+.contato-single h2{
+    color: blue;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.contato-single p{
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .contato-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+body{
+    background-image: url(1.jpeg);
+    height: 100 vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+   }
+
+   html, body {
+    overflow: hidden;
+   }
