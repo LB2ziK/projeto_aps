@@ -87,8 +87,6 @@ section.main{
     border-radius: 10px;
 }
 
-
-
 .contato-single h2{
     color: blue;
     margin: 10px 0;
@@ -100,6 +98,31 @@ section.main{
     font-size: 14px;
     line-height: 30px;
 }
+
+.contato-single a{
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.contato-single button{
+    height: 22;
+    width: 125px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+    background-color: rgba(0, 1, 0, 0.3);
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
 
 @media screen and (max-width: 768px){
     .contato-single{
