@@ -45,17 +45,22 @@ nav li a:hover{
     color: black;
 }
 
+
+
 /*
 Section Main
 */
 
 
 section.main{
-    min-height: 800px;
-    background-position: center;
+    height: 70vh;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .main__cta{
@@ -65,12 +70,12 @@ section.main{
 }
 
 .main__cta h2{
-    color: blue;
+    color: rgb(255, 255, 255);
     font-size: 40px;
 }
 
 .main__cta p{
-    color: gray;
+    color: rgb(255, 255, 255);
     font-size: 19px;
     margin: 10px;
 }
@@ -85,10 +90,11 @@ section.main{
     margin-right: 2%;
     padding: 50px 20px;
     border-radius: 10px;
+    height: 200px;
 }
 
 .contato-single h2{
-    color: blue;
+    color: rgb(255, 255, 255);
     margin: 10px 0;
     font-size: 17px;
 }
@@ -123,14 +129,6 @@ section.main{
     border-radius: 20px 20px 20px 20px;
 }
 
-
-@media screen and (max-width: 768px){
-    .contato-single{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
-
 body{
     background-image: url(1.jpeg);
     height: 100 vh;
@@ -141,6 +139,7 @@ body{
     justify-content: center;
     text-align: center;
     margin: 20px;
+    
    }
 
    html, body {
