@@ -11,6 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 20px 20px 20px 20px;
 }
 nav .logo a{
     text-decoration: none;
@@ -43,20 +44,30 @@ nav li a:hover{
     background-color: white;
     color: black;
 }
-.banner{
-    height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('1.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+
+body{
+    background-image: url(bgteste.png);
     
 }
 
-
-html, body {
-    overflow: hidden;
-   }
+.botao-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 1, 0, 0.3);
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .botao-voltar:hover {
+    background-image: linear-gradient(to right, transparent, rgba(0, 1, 0, 0.8) );
+    cursor: pointer;
+  }
+  
+  

@@ -83,6 +83,11 @@ nav li a:hover{
     background-color: rgba(0, 1, 0, 0.3);
     color: white;
     border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+}
+
+.texto .botoes:hover button{
+    background-image: linear-gradient(to right, transparent, rgba(0, 1, 0, 0.8) );
 }
 
 
