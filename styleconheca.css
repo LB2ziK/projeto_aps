@@ -3,15 +3,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 100%;
     font-family: 'Poppins', sans-serif;
 }
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(teste03.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 nav{
-    background-image: linear-gradient(to right, #30503a , black);
+    background-color: transparent;
     padding: 1px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px 20px 20px 20px;
+    margin: 20px;
 }
 nav .logo a{
     text-decoration: none;
@@ -45,6 +58,44 @@ nav li a:hover{
     color: black;
 }
 
+.main{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    margin-top: 1%;
+    line-height: 1.5;
+    color: #fff;
+}
+
+p::selection{
+    background-color: red;
+    color: white;
+}
+
+
+.p2{
+    margin-top: 1%;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 15px 0 15px 0;
+    font-variant: small-caps;
+    color: white;
+}
+
+
+
+
+
+
+
+/*
 body{
     background-image: url(background.png);
     
@@ -69,5 +120,8 @@ body{
     background-image: linear-gradient(to right, transparent, rgba(0, 1, 0, 0.8) );
     cursor: pointer;
   }
+
+  */
+
   
   

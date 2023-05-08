@@ -5,13 +5,25 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(teste02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 nav{
-    background-image: linear-gradient(to right, #30503a , black);
+    background-color: transparent;
     padding: 1px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px 20px 20px 20px;
+    margin: 20px;
 }
 nav .logo a{
     text-decoration: none;
@@ -95,16 +107,7 @@ html, body {
     overflow: hidden;
    }
 
-   body{
-    background-image: url(1.jpeg);
-    height: 100 vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 20px;
-   }
+    
+   
 
    
